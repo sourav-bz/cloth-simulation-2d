@@ -13,8 +13,8 @@ private:
 	bool isActive = true;
 	bool isSelected = false;
 
-	Uint32 color = 0xFF0048E3;
-	Uint32 colorWhenSelected = 0xFFCC0000;
+	Uint32 color = 0xFF2C3E50;
+	Uint32 colorWhenSelected = 0xFFE74C3C;
 
 public:
 	Stick(Point& p0, Point& p1, float lenght);

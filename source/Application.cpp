@@ -91,7 +91,7 @@ void Application::Update()
 
 void Application::Render() const
 {
-	renderer->ClearScreen(0xFF000816);
+	renderer->ClearScreen(0xFFF5F5F5);
 
 	cloth->Draw(renderer);
 
